@@ -19,8 +19,8 @@ app.use(express.json({ limit: "50mb" }));
 
 const allowedOrigins = [
   "http://localhost:5173",
+  "https://eventhub-frontend-xi.vercel.app",
   "https://main--extraordinary-fox-28d76d.netlify.app",
-  "https://eventhub-frontend-xi.vercel.app/"
 ];
 
 app.use(
